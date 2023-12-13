@@ -1,0 +1,10 @@
+project(@projectName@ VERSION ${projectVersion})
+
+
+MakeProject(dLib
+            @logEn@
+            outDir      ${projectInstallBinPath}
+            outFile     ${PROJECT_NAME}
+            sourceDir   ${CMAKE_SOURCE_DIR}/@sourceDir@
+            linkLibs    QtCore
+            )

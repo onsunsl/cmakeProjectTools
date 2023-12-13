@@ -1,0 +1,8 @@
+# @PROJECT_NAME@ 头文件目录
+set(@PROJECT_NAME@_INCLUDE_DIRS @publicIncludeDirs@)
+
+# @PROJECT_NAME@ 库目录
+set(@PROJECT_NAME@_LIBRARY_DIRS @publicLibDirs@)
+
+# @PROJECT_NAME@ 库文件
+set(@PROJECT_NAME@_LIBRARIES    @publicLibs@)
